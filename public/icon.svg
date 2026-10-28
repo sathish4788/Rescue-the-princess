@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  
+  <!-- Outer aura ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#f59e0b" stroke-width="6" opacity="0.4"/>
+  <circle cx="256" cy="256" r="180" fill="url(#glow)"/>
+
+  <!-- Crossed swords / sparks -->
+  <path d="M140 372 L372 140" stroke="#94a3b8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M372 372 L140 140" stroke="#94a3b8" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Golden Crown -->
+  <path d="M140 260 L170 150 L256 210 L342 150 L372 260 Z" fill="url(#gold)" stroke="#78350f" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="140" y="260" width="232" height="34" rx="8" fill="url(#gold)" stroke="#78350f" stroke-width="8"/>
+  
+  <!-- Jewels on Crown -->
+  <circle cx="170" cy="150" r="12" fill="#ef4444" stroke="#78350f" stroke-width="4"/>
+  <circle cx="256" cy="210" r="16" fill="#38bdf8" stroke="#78350f" stroke-width="4"/>
+  <circle cx="342" cy="150" r="12" fill="#10b981" stroke="#78350f" stroke-width="4"/>
+  
+  <circle cx="180" cy="277" r="8" fill="#ef4444"/>
+  <circle cx="256" cy="277" r="10" fill="#38bdf8"/>
+  <circle cx="332" cy="277" r="8" fill="#10b981"/>
+
+  <!-- Princess Heart in Center -->
+  <path d="M256 340 C256 340 180 270 180 210 C180 170 215 145 256 185 C297 145 332 170 332 210 C332 270 256 340 256 340 Z" fill="url(#heart)" stroke="#ffffff" stroke-width="6" opacity="0.9"/>
+  <text x="256" y="248" font-size="42" text-anchor="middle" fill="#ffffff" font-family="sans-serif">👸</text>
+
+  <!-- Sparkles -->
+  <polygon points="120,110 125,125 140,130 125,135 120,150 115,135 100,130 115,125" fill="#fde047"/>
+  <polygon points="390,340 394,352 406,356 394,360 390,372 386,360 374,356 386,352" fill="#fde047"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Rescue the Princess",
+  "description": "An action-packed arcade adventure where you dodge falling barriers, defeat 5 epic bosses, and rescue the captured princess!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
